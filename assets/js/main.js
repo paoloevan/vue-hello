@@ -8,7 +8,8 @@ const { createApp } = Vue
 createApp({
     data(){
         return{
-            title: 'Hello Vue!'
+            title: 'Hello Vue!',
+            imgUrl: 'https://www.monterail.com/hubfs/vue-optimized.png'
         }
     }
 }).mount('#app')
