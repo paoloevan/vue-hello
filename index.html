@@ -9,9 +9,11 @@
 </head>
 <body>
     
-    <div id="app" class="container">
-        <h1>{{ title }}</h1>
-        <img :src="imgUrl" alt="">
+    <div id="app">
+        <div class="container" :class="jsClass">
+            <h1>{{ title }}</h1>
+            <img :src="imgUrl" alt="">
+        </div>
     </div>
 
     <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
